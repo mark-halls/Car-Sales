@@ -1,10 +1,10 @@
-export const BUY = "BUY";
+export const BUY_ITEM = "BUY_ITEM";
 export const REMOVE_FEATURE = "REMOVE_FEATURE";
 
-export const buy = () => ({
-    type: BUY
-})
+export const buyItem = () => ({
+  type: BUY_ITEM
+});
 
-export const remove = () => ({
-    type: REMOVE_FEATURE
-})
+export const removeItem = () => ({
+  type: REMOVE_FEATURE
+});
