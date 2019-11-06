@@ -1,4 +1,6 @@
 export const reducer = (state, action) => {
+  console.log(state);
+  console.log(action);
   switch (action.type) {
     case "BUY_ITEM":
       return {
