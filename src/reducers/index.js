@@ -13,7 +13,7 @@ export const reducer = (state, action) => {
         car: { ...state.car, features: [...state.car.features, action.payload] }
       };
     }
-    case "REMOVE_ITEM":
+    case "REMOVE_FEATURE":
       return {
         ...state,
         additionalPrice: state.additionalPrice - action.payload.price,
